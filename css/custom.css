@@ -31,6 +31,18 @@ header {
     background-size: cover;
 }
 
+/* filepath: c:\Users\tfleu\Portfolio\css\custom.css */
+.web-design-header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: justify;
+    color: #F1F0ED;
+    background-image: url('../images/myself.jpg');
+     background-position: center;
+    background-size: cover;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -462,15 +474,4 @@ img::selection {
         max-width: 80vw;
         height: auto;
     }
-}
-/* filepath: c:\Users\tfleu\Portfolio\css\custom.css */
-.web-design-header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: justify;
-    color: #F1F0ED;
-    background-image: url('../images/myself.jpg');
-     background-position: center;
-    background-size: cover;
 }
