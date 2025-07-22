@@ -42,6 +42,16 @@ header {
      background-position: center;
     background-size: cover;
 }
+header .web-design-header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+header .web-design-header-content .web-design-header-content-inner {
+    margin: 0 auto;
+    max-width: 1000px;
+}
 
 header .header-content {
     position: relative;
