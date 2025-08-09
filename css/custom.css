@@ -71,7 +71,7 @@ header {
     color: rgba(241,240,237,0.7);
     text-align: center;
 }
-header .header-content {
+.index-header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px 70px;
