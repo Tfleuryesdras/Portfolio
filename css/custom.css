@@ -30,6 +30,16 @@ header {
     background-position: center;
     background-size: cover;
 }
+.index-header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: justify;
+    color: #F1F0ED;
+    background-image: url('../images/esdras.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 /* filepath: c:\Users\tfleu\Portfolio\css\custom.css */
 .web-design-header {
