@@ -23,14 +23,16 @@ p {
 
 .index-header {
     position: relative;
-    width: 100%;
     min-height: auto;
     text-align: justify;
     color: #F1F0ED;
     background-image: url('../images/esdras.jpg');
     background-position: center;
     background-size: cover;
-}
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}   
 
 /* filepath: c:\Users\tfleu\Portfolio\css\custom.css */
 .web-design-header {
@@ -127,7 +129,7 @@ header .header-content .header-content-inner a {
 
 .intro {
     color: #F1F0ED;
-    background-color: transparent;
+    background-color: #D2C4AF;
     padding: 50px 0;
     text-align: center;
     margin: 0 auto;
