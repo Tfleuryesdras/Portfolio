@@ -20,15 +20,7 @@ p {
     line-height: 1.5;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: justify;
-    color: #F1F0ED;;
-    background-position: center;
-    background-size: cover;
-}
+
 .index-header {
     position: relative;
     width: 100%;
