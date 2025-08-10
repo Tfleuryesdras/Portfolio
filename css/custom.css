@@ -36,7 +36,7 @@ p {
 .web-design-header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100%;
     text-align: justify;
     color: #F1F0ED;
     background-image: url('../images/myself.jpg');
