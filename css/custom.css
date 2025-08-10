@@ -35,13 +35,15 @@ p {
 /* filepath: c:\Users\tfleu\Portfolio\css\custom.css */
 .web-design-header {
     position: relative;
-    width: 100%;
     min-height: 100%;
     text-align: justify;
     color: #F1F0ED;
     background-image: url('../images/myself.jpg');
     background-position: center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 .web-design-header-content {
     position: relative;
