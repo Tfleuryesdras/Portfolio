@@ -72,24 +72,33 @@ p {
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
+    top: 50%;
+    bottom: 50%;
+    translate: -50% -50%;
 }
 
-header .header-content .header-content-inner h1 {
+ .index-header.header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 300;
+    top: 50%;
+    bottom: 50%;
+    translate: -50% -50%;
 }
 
-header .header-content .header-content-inner p {
+.index-header.header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(241,240,237,0.7);
     text-align: center;
+    top: 50%;
+    bottom: 50%;
+    translate: -50% -50%;
 }
 
-header .header-content .header-content-inner a {
+.index-header.index-header-content .index-header-content-inner a {
     color: #F1F0ED;
     margin-top: 30px;
 }
@@ -98,7 +107,7 @@ header .header-content .header-content-inner a {
         min-height: 100%;
     }
 
-    header .header-content {
+    .index-header.index-header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
