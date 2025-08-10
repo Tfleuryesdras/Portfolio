@@ -48,9 +48,16 @@ p {
     height: 100vh;
 }
 .web-design-header-content {
-    position: relative;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 100px 15px 70px;
+    height: 100%;
+    padding: 0;
     text-align: center;
 }
 .web-design-header-content .web-design-header-content-inner h1 {
@@ -68,13 +75,18 @@ p {
     text-align: center;
 }
 .index-header-content {
-    position: relative;
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 100px 15px 70px;
+    height: 100%;
+    padding: 0;
     text-align: center;
-    top: 50%;
-    bottom: 50%;
-    translate: -50% -50%;
+
 }
 
  .index-header.header-content .header-content-inner h1 {
@@ -82,9 +94,7 @@ p {
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 300;
-    top: 50%;
-    bottom: 50%;
-    translate: -50% -50%;
+
 }
 
 .index-header.header-content .header-content-inner p {
@@ -93,9 +103,7 @@ p {
     font-weight: 300;
     color: rgba(241,240,237,0.7);
     text-align: center;
-    top: 50%;
-    bottom: 50%;
-    translate: -50% -50%;
+   
 }
 
 .index-header.index-header-content .index-header-content-inner a {
@@ -106,13 +114,7 @@ p {
     header {
         min-height: 100%;
     }
-
-    .index-header.index-header-content {
-        position: absolute;
-        top: 50%;
-        padding: 0 50px;
-        transform: translateY(-50%);
-    }
+}
 
     header .header-content .header-content-inner {
         margin: 0 auto;
@@ -129,7 +131,7 @@ p {
         font-size: 18px;
         padding: 20 auto;
     }
-}
+
 
 .section-heading {
     margin-top: 0;
