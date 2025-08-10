@@ -23,7 +23,7 @@ p {
 
 .index-header {
     position: relative;
-    min-height: auto;
+    min-height: 100%;
     text-align: justify;
     color: #F1F0ED;
     background-image: url('../images/esdras.jpg');
