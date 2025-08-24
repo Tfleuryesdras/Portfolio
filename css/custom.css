@@ -529,3 +529,28 @@ img::selection {
         height: auto;
     }
 }
+
+.section-header.text-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.row.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-sm-4.text-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.col-sm-8.text-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
