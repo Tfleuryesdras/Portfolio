@@ -537,20 +537,18 @@ img::selection {
 
 .row.align-items-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .col-sm-4.text-left {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
 }
 
 .col-sm-8.text-right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: flex-end;
     text-align: right;
 }
